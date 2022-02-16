@@ -65,6 +65,7 @@ const insertTask = (event) => {
     setData(database);
     reload();
     event.target.value = "";
+    event.target.focus();
   };
   const key = event.key;
   if (key === "Enter") {
@@ -73,6 +74,7 @@ const insertTask = (event) => {
     setData(database);
     reload();
     event.target.value = "";
+    event.target.focus();
   }
 };
 
